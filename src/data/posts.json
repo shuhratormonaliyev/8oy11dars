@@ -1,0 +1,12 @@
+[
+    {
+        "id": "1",
+        "title": "Birinchi Post",
+        "content": "Bu birinchi postning mazmuni."
+    },
+    {
+        "id": "2",
+        "title": "Ikkinchi Post",
+        "content": "Bu ikkinchi postning mazmuni."
+    }
+]
