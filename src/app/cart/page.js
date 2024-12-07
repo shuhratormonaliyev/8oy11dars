@@ -1,7 +1,7 @@
 "use client"; 
 
 import { useContext } from 'react';
-import { CartContext } from '../context/CartContext';
+import { CartContext } from '../../context/CartContext';
 
 export default function Cart() {
     const { cart } = useContext(CartContext);
@@ -11,7 +11,7 @@ export default function Cart() {
             <h1 className="text-2xl font-bold">Savat</h1>
             <ul>
                 {cart.map((item, index) => (
-                    <li key={index}>{item.name}</li>
+                    <li key={index}  className="text-lg">{item.name}</li>
                 ))}
             </ul>
         </div>
